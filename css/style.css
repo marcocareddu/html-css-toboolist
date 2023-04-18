@@ -9,7 +9,7 @@
 /* UTILS */
 
 .container {
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -36,4 +36,28 @@ body {
     height: 80px;
     padding: 10px 0px 5px 20px;
     vertical-align: middle;
+}
+
+#buttons-container {
+    margin-top: 40px;
+    padding: 15px 0;
+    border-top-left-radius: 10px;
+}
+
+button {
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+#task-button {
+    margin-left: 25px;
+    border: 1px solid #1e90ff;
+    color: #fff;
+    background-color: #1e90ff;
+}
+
+#sect-button {
+    color: #7f8080;
+    border: 1px solid #7f8080;
 }
