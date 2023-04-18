@@ -9,12 +9,16 @@
 /* UTILS */
 
 .container {
-    max-width: 50%;
+    max-width: 45%;
     margin: 0 auto;
 }
 
 .bcg-w {
     background-color: #fff;
+}
+
+ul li, #task-button, .check {
+    margin-left: 35px;
 }
 
 /* ALTRO */
@@ -51,13 +55,88 @@ button {
 }
 
 #task-button {
-    margin-left: 25px;
     border: 1px solid #1e90ff;
     color: #fff;
     background-color: #1e90ff;
 }
 
 #sect-button {
+    background-color: #fff;
     color: #7f8080;
     border: 1px solid #7f8080;
+}
+
+.list {
+    margin-top: 2px;
+    padding-top: 40px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.down-arrow {
+    font-size: 0.8rem;
+}
+
+.round {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    padding-left: 3px;
+}
+
+.check {
+    border: 1px solid #389b38;
+    color: #389b38;
+}
+
+.sub-task {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h2, h4 {
+    display: inline;
+}
+
+.title-list {
+
+}
+
+.nested-list {
+    margin-top: 25px;
+}
+
+.task-tag {
+    font-size: 0.9rem;
+    display: inline;
+    padding: 7px;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.bgc-azure {
+    background-color: #45abea;
+}
+
+.bgc-purple {
+    background-color: #9c72e4;
+}
+
+.bgc-turquoise {
+    background-color: #64c0a9;
+}
+
+.bgc-orange {
+    background-color: #f29e33;
+}
+
+.bgc-pink {
+    background-color: #d863a1;
+}
+
+.bgc-lime {
+    background-color: #b0c926;
 }
