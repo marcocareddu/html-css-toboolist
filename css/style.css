@@ -17,7 +17,7 @@
     background-color: #fff;
 }
 
-ul li, #task-button, .check {
+ul li, #task-button {
     margin-left: 35px;
 }
 
@@ -73,6 +73,7 @@ button {
 
 ul li {
     list-style-type: none;
+    margin-top: 30px;
 }
 
 .down-arrow {
@@ -92,9 +93,16 @@ ul li {
     color: #389b38;
 }
 
+.uncheck {
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    font-size: 0.8rem;
+}
+
 .sub-task {
     font-size: 1.5rem;
     font-weight: 400;
+    line-height: 0;
 }
 
 h2, h4 {
